@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactProjectMovies/static/css/main.96afd2da.css",
-    "main.js": "/ReactProjectMovies/static/js/main.08b782ef.js",
+    "main.js": "/ReactProjectMovies/static/js/main.d7f138cf.js",
     "static/js/453.e0948e10.chunk.js": "/ReactProjectMovies/static/js/453.e0948e10.chunk.js",
     "static/media/cover.png": "/ReactProjectMovies/static/media/cover.359fde30a1e1fbd84ed2.png",
     "static/media/Montserrat-Bold.woff2": "/ReactProjectMovies/static/media/Montserrat-Bold.e8f19e24957344073d00.woff2",
@@ -9,11 +9,11 @@
     "static/media/sprite.svg": "/ReactProjectMovies/static/media/sprite.42ccbe69a957a889f1154b3d1a680107.svg",
     "index.html": "/ReactProjectMovies/index.html",
     "main.96afd2da.css.map": "/ReactProjectMovies/static/css/main.96afd2da.css.map",
-    "main.08b782ef.js.map": "/ReactProjectMovies/static/js/main.08b782ef.js.map",
+    "main.d7f138cf.js.map": "/ReactProjectMovies/static/js/main.d7f138cf.js.map",
     "453.e0948e10.chunk.js.map": "/ReactProjectMovies/static/js/453.e0948e10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96afd2da.css",
-    "static/js/main.08b782ef.js"
+    "static/js/main.d7f138cf.js"
   ]
 }
