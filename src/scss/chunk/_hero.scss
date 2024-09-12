@@ -1,0 +1,143 @@
+.hero {
+  position: relative;
+  padding-top: 130px;
+  padding-bottom: 260px;
+
+  &__container {
+    max-width: 1025px;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    padding: 45px 70px;
+    background-color: var(--mine-shaft);
+    border-radius: 15px;
+  }
+
+  &__img {
+    margin-right: 30px;
+    width: 300px;
+    height: 445px;
+    border-radius: 15px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__years {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: var(--trendy-green);
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+
+  &__paragraph {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__text {
+    font-weight: 700;
+  }
+}
+
+.sidebar {
+  position: absolute;
+  top: 305px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 30px 45px 30px;
+  width: 100%;
+  max-width: 315px;
+  background-color: var(--mine-shaft);
+  border-radius: 0 15px 15px 0;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    max-width: 255px;
+  }
+
+  &__search {
+    padding: 10px 15px;
+    max-width: 200px;
+    background-color: var(--tundora);
+    border: 0;
+    border-radius: 25px 0 0 25px;
+    font-size: 15px;
+    color: var(--white);
+
+    &::placeholder {
+      font-size: 15px;
+      color: var(--white);
+      opacity: 0.5;
+    }
+  }
+
+  &__button {
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--mine-shaft);
+    background-color: var(--barberry);
+    border-radius: 0 15px 15px 0;
+    transition: color 0.4s;
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+
+  &__heading {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  &__year {
+    padding: 10px 15px;
+    max-width: 95px;
+    background-color: var(--tundora);
+    border: 0;
+    border-radius: 25px;
+    font-size: 15px;
+    color: var(--white);
+
+    &::placeholder {
+      font-size: 15px;
+      color: var(--white);
+      opacity: 0.5;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  padding: 50px 0;
+  background-color: var(--mine-shaft);
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    height: 36px;
+    cursor: default;
+
+    &-icon {
+      width: 162px;
+      height: 36px;
+    }
+  }
+
+  &__link {
+    font-size: 32px;
+    transition: color 0.4s;
+
+    &:hover {
+      color: var(--barberry);
+    }
+  }
+}
