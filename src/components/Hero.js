@@ -10,7 +10,7 @@ export default function Hero() {
     const form = e.target.closest(".sidebar__form");
     const nameInput = form.querySelector(".sidebar__search");
     const yearInput = form.querySelector(".sidebar__year");
-    const url = `http://www.omdbapi.com/?apikey=96058abc&t=${nameInput.value}${
+    const url = `https://www.omdbapi.com/?apikey=96058abc&t=${nameInput.value}${
       yearInput.value !== null ? "&y=" + yearInput.value : null
     }`;
     const errorMovie = {
