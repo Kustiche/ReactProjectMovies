@@ -21,8 +21,6 @@ export default function Hero() {
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.Response);
-
         if (data.Response === "True") {
           setSearchObject(data);
         } else {
