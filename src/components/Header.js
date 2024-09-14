@@ -1,6 +1,6 @@
 import sprite from "../sprite.svg";
 
-export default function Header() {
+export default function Header({ onClick }) {
   return (
     <section className="header">
       <div className="container">
@@ -10,9 +10,9 @@ export default function Header() {
               <use href={sprite + "#logo"}></use>
             </svg>
           </a>
-          <a className="header__link link-reset" href="#/">
+          <button className="header__button btn-reset" onClick={() => window.registrationModal.showModal()}>
             Login
-          </a>
+          </button>
         </div>
       </div>
     </section>

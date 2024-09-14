@@ -410,6 +410,77 @@ img {
   outline: none;
 }
 
+.modal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  background-color: var(--dark);
+  border: 2px solid var(--barberry);
+}
+.modal::backdrop {
+  background-color: var(--dark);
+  opacity: 0.7;
+}
+.modal__close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.4s;
+}
+.modal__close-btn::after, .modal__close-btn::before {
+  position: absolute;
+  content: "";
+  border-top: 3px solid var(--barberry);
+  width: 20px;
+  top: 50%;
+  left: 0;
+  transform: rotate(45deg);
+}
+.modal__close-btn::before {
+  transform: rotate(-45deg);
+}
+.modal__close-btn:hover {
+  transform: scale(0.9);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  width: 350px;
+  height: 300px;
+  gap: 20px;
+}
+.form__button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid var(--barberry);
+  color: var(--barberry);
+  transition: all 0.4s;
+}
+.form__button:hover {
+  background-color: var(--barberry);
+  color: var(--dark);
+}
+
+.input {
+  padding: 10px;
+  border: 2px solid var(--barberry);
+  border-radius: 10px;
+  color: var(--barberry);
+  background-color: var(--mine-shaft);
+}
+.input::-moz-placeholder {
+  color: var(--barberry);
+}
+.input::placeholder {
+  color: var(--barberry);
+}
+
 .header {
   padding: 50px 0;
   background-color: var(--mine-shaft);
@@ -427,11 +498,12 @@ img {
   width: 162px;
   height: 36px;
 }
-.header__link {
+.header__button {
   font-size: 32px;
   transition: color 0.4s;
+  font-weight: 700;
 }
-.header__link:hover {
+.header__button:hover {
   color: var(--barberry);
 }
 
